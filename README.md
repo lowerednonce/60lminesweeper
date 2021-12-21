@@ -30,7 +30,7 @@ This is arbitrary, but the criteria is the following:
 - no base64 packed code
 - no eval() or exec()
 - no reading other files for code
-- no importing other libraries, no `import X` or `from X import Y`
+- no importing non-default libraries, default libraries can be `os` in python or `string` in C
 - maximum 5 instructions per line, meaning only 4 `;` per line
 - features:
    - be able to dig
